@@ -33,7 +33,7 @@ st.title('Movie Recommedation System')
 
 selected_movie_name = st.selectbox(
     '''How would you like to be recommended?
-    Either select or search!
+    Either select or search the move!
     ''',movies_list['title'].values)
 
 
